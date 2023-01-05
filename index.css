@@ -1,0 +1,456 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+header{
+    position: flex;
+    align-items: center;
+    display: flex;
+    margin:-10;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(94,0,92,1) 100%);
+    height: 100px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.top #logo {
+    margin-top: -20px;
+    height: 85px;
+    width: 75px;
+    
+}
+
+.top #discord-logo{
+    margin-bottom: 20px;
+    margin-right: 120px;
+    height: 35px;
+    width: 40px;
+    
+
+}
+
+.top #insta-logo{
+    margin-bottom: 20px;
+    margin-left: 120px;
+    height: 35px;
+    width: 40px;
+    
+}
+
+.top {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+#logo-letra{
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+p{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-size: 18px
+}
+
+#intro{
+    margin-left: 100px;
+    margin-right: 100px
+    
+}
+
+#initiative {
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-top: 20px;
+
+     
+}
+
+#cryptodroid{
+   width: 60%;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.banner{
+    height: 150px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(94,0,92,1) 100%); 
+    border-radius: 18px;
+    margin-top: -19px;
+    font-size: 40px;    
+            
+}
+.banner a{
+    text-decoration: none;
+}
+
+#initiative{
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20px;
+}
+
+#button{
+    background-color: rgb(98, 0, 255);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 16px;
+    
+}    
+
+
+
+.cryptodroids5 img{
+    width: 100%
+}
+
+h2{
+    text-align: center;
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 50px;
+}
+
+.aboutus{
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    display: block;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.imagen{
+    box-sizing: border-box;
+    display: block;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    text-align: center;
+    text-size-adjust: 100%;
+    padding-top: 10px;
+}
+
+.imagen img{
+    height: 40%;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    
+    
+    
+}
+
+.imagen p{
+    margin-right: 10px;
+    margin-left: 10px;
+    line-break: auto;
+    ;
+}
+
+.imagen #titulo{
+    font-size: 40px;
+}
+/*AQUI EMPEZAMOS EL ROADMAP*/
+.roadmap{
+    margin: 10px;
+    justify-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.proceso{
+    
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+    row-gap: 30px;
+   
+}
+
+
+
+.cardproccess{
+    
+    justify-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(94,0,92,1) 100%);
+    text-align: center;
+    width: 180px;
+    border-radius: 40px;
+    height: 290px;
+    padding: 20px;
+
+}
+
+.cardproccess h4{
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20px;
+    margin-bottom: -5px;
+
+}
+
+.cardproccess p{
+    margin-bottom: 10px;
+
+}
+
+/*AQUI EMPEZAMOS EL GRID DEL EQUIPO*/
+
+.grid{
+    justify-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto auto;
+    row-gap: 30px;
+}
+.team-member{
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-right:50px ;
+    margin-left: 50px;
+    width: 300px;
+    border-radius: 25px;
+    
+}
+
+
+.team-member img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 268px;
+    height: 268px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.team-member p{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(94,0,92,1) 100%);
+    height: 70px;
+    padding: 27px;
+}
+
+.footer img{
+    width: 40px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer p{
+    margin-top: 2px;
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+#copyright{
+    margin-bottom: 50px;
+    color: aqua;
+    margin-top: 2px;
+}
+
+#lottie-animation{
+    height: 500px;
+    width: 500px;
+    margin-top: -120px;
+    margin-bottom: -120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lottie-animation2{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 400px;
+   height: 400px;
+
+    
+
+
+}
+
+@media only screen and (min-width: 1108px){
+    .grid{
+        
+        padding-left: 200px;
+        padding-right: 200px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+
+    .proceso{
+        padding-left: 400px;
+        padding-right: 400px;
+        
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px ;
+        row-gap: 30px;
+        text-align: center;
+       
+    }
+
+    .cardproccess{
+        
+        justify-content: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(94,0,92,1) 100%);
+        text-align: center;
+        width: 250px;
+        border-radius: 40px;
+        height: 320px;
+        padding: 20px;
+        justify-self: center;
+    
+    }
+
+    .cardproccess h4{
+        font-size: 25px;
+
+    }
+
+    .cardproccess p{
+        font-size: 18px;
+        padding-bottom: 19px;
+    }
+
+    #intro{
+        margin-left: minmax(20%, 400px);
+        margin-right: minmax(20%, 400px);
+              
+    }
+
+    #lottie-animation{
+        height: 1000px;
+        width: 1000px;
+        margin-top: -200px;
+        margin-bottom: -240px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #lottie-animation2{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 500px;
+       height: 500px;
+    
+        
+    
+    
+    }
+
+    
+
+
+}
+
+@font-face {
+    font-family: 'PP Monument Extended';
+    src: url('PPMonumentExtended-Regular.woff2') format('woff2'),
+        url('PPMonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
